@@ -10,6 +10,16 @@ body {
     background-color: rgb(24, 66, 106);
 }
 
+.body2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+}
+
 header {
     top: 5vh;
     width: 90%;
@@ -367,7 +377,7 @@ main .aside1 h3 img {
 
 .anuncios .logobot {
     position: absolute;
-    width: 15vw;
+    width: 17vw;
     height: 50%;
     top: 7vh;
     left: 0;
@@ -383,7 +393,7 @@ main .aside1 h3 img {
 
 .iconos {
     position: absolute;
-    width: 15vw;
+    width: 17vw;
     height: 50%;
     top: 7vh;
     right: 0;
@@ -391,12 +401,23 @@ main .aside1 h3 img {
 }
 
 .bi {
-    padding: 0 4px 0 5px;
+    padding: 0 5px 0 5px;
     position: relative;
     top: 12vh;
     width: 4vw;
     height: 4vh;
     color: white;
+}
+
+.semi {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(240, 106, 106);
+    border-radius: 200px 0 0 200px;
+    top: 140vh;
+    right: 0;
+    z-index: 1;
 }
 
 .sponsors {
@@ -406,9 +427,1578 @@ main .aside1 h3 img {
     width: 68%;
     height: 50%;
     position: absolute;
-    top: 7vh;
+    top: 2vh;
+}
+.sponsors1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 50%;
+    position: absolute;
+    top: 14vh;
 }
 
 .sponsors img {
     padding: 1px;
 }
+
+.headert1 {
+    background: url(https://assets-es.imgfoot.com/lionel-messi-2223-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo123 {
+    position: absolute;
+    width: 40vw;
+    left: 10vw;
+    z-index: 2;
+}
+
+.navegadortr {
+    padding: 0px;
+    position: absolute;
+    bottom: 0vh;
+    width: 98%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.imagenaz {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    background-image: linear-gradient(100deg, rgb(50, 50, 201), rgb(108, 199, 230));
+    opacity: 0.6;
+    filter: grayscale(60%);
+    z-index: 0;
+}
+
+.navego {
+    background-color: rgb(8, 38, 67);
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    height: 15vh;
+    z-index: 1;
+}
+
+.navegadortr p {
+    padding: 0 40px;
+    font-size: 25px;
+    z-index: 2;
+}
+
+.navegadortr a {
+    text-decoration: none;
+}
+
+.navegadortr a:hover {
+    text-decoration: underline;
+}
+
+.navegadortr #a1 {
+    color: rgb(240, 106, 106);
+}
+
+.navegadortr #a2 {
+    color: white;
+}
+
+.navegadortr #a3 {
+    color: rgb(63, 208, 208);
+}
+
+.navegadortr #a4 {
+    color: rgb(228, 228, 86);
+}
+
+.navegadortr #a5 {
+    color: white;
+}
+
+.maint1 {
+    position: absolute;
+    width: 97%;
+    height: 180vh;
+    top: 100vh;
+    background-image: linear-gradient(100deg, rgb(29, 95, 131) 50%, rgb(64, 156, 186));
+    color: rgb(240, 106, 106);
+    border-left: 35px solid rgb(240, 106, 106);
+}
+
+.maint1 img{
+    position: absolute;
+    right: 10vw;
+    z-index: 1;
+}
+
+#FC-BARCELONA {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 8vh;
+    left: 4vw;
+    width: 900px;
+    font-size: 35px;
+    padding: 15px 0;
+    border-top: 5px solid rgb(240, 106, 106);
+    border-bottom: 5px solid rgb(240, 106, 106);
+    z-index: 0;
+    scroll-margin-top: 70px;
+}
+
+.imagesss {
+    position: absolute;
+    width: 70vw;
+    left: 3vw;
+    top: 100vh;
+    z-index: 1;
+}
+
+.cleague {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    left: 0vw;
+    top: 35vh;
+}
+
+.cleague img {
+    position: absolute;
+    width: 80px;
+    top: 70px;
+    left: 85px;
+}
+
+.cleague img:hover {
+    filter: drop-shadow(10%);
+}
+
+.cleague h3 {
+    width: 100px;
+}
+
+.cleague .año1 {
+    position: absolute;
+    width: auto;
+    bottom: 10vh;
+    color: white;
+}
+
+.lali {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 420px;
+    left: 16vw;
+    top: 35vh;
+}
+
+.lali img {
+    position: absolute;
+    width: 90px;
+    top: 80px;
+    left: 80px;
+}
+
+.lali .año2 {
+    position: absolute;
+    width: auto;
+    bottom: 5vh;
+    color: white;
+}
+
+
+.lali h3 {
+    width: 100px;
+}
+
+.cr {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 32vw;
+    top: 35vh;
+}
+
+.cr img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.cr .año3 {
+    position: absolute;
+    width: auto;
+    bottom: 13vh;
+    color: white;
+}
+
+
+.cr h3 {
+    width: 100px;
+}
+
+.mc {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 48vw;
+    top: 35vh;
+}
+
+.mc img {
+    position: absolute;
+    width: 50px;
+    top: 70px;
+    left: 100px;
+}
+
+.mc .año4 {
+    position: absolute;
+    width: auto;
+    bottom: 18vh;
+    color: white;
+}
+
+
+.mc h3 {
+    width: 100px;
+}
+
+.se {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 16vw;
+    top: 105vh;
+}
+
+.se img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.se .año5 {
+    position: absolute;
+    width: auto;
+    bottom: 15vh;
+    color: white;
+}
+
+
+.se h3 {
+    width: 100px;
+}
+
+.ses {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 32vw;
+    top: 105vh;
+}
+
+.ses img {
+    position: absolute;
+    width: 80px;
+    top: 70px;
+    left: 85px;
+}
+
+.ses .año6 {
+    position: absolute;
+    width: auto;
+    bottom: 3vh;
+    color: white;
+}
+
+
+.ses h3 {
+    width: 100px;
+}
+
+.maint2 {
+    position: absolute;
+    width: 97%;
+    height: 145vh;
+    top: 290vh;
+    background-image: linear-gradient(100deg, rgb(11, 59, 85) 50%, rgb(25, 77, 94));
+    color: rgb(240, 106, 106);
+    border-left: 35px solid rgb(24, 66, 106);
+    z-index: 0;
+}
+
+#PARIS {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 8vh;
+    left: 4vw;
+    width: 900px;
+    font-size: 35px;
+    padding: 15px 0;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    z-index: 0;
+    scroll-margin-top: 70px;
+}
+
+#psgcam {
+    position: absolute;
+    top: 5vh;
+    right: 8vw;
+    width: 20vw;
+}
+
+.li1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 4vw;
+    top: 40vh;
+}
+
+.li1 img {
+    position: absolute;
+    width: 150px;
+    top: 70px;
+    left: 50px;
+}
+
+.li1 .años1 {
+    position: absolute;
+    width: auto;
+    bottom: 3vh;
+    color: white;
+}
+
+
+.li1 h3 {
+    width: 100px;
+}
+
+.sf {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 30vw;
+    top: 40vh;
+}
+
+.sf img {
+    position: absolute;
+    width: 150px;
+    top: 70px;
+    left: 50px;
+}
+
+.sf .años2 {
+    position: absolute;
+    width: auto;
+    bottom: 3vh;
+    color: white;
+}
+
+
+.ses h3 {
+    width: 100px;
+}
+
+.semi1 {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    border-radius: 200px 0 0 200px;
+    top: 385vh;
+    right: 0;
+    z-index: 5;
+}
+
+.maint3 {
+    position: absolute;
+    width: 97%;
+    height: 180vh;
+    top: 445vh;
+    background-image: linear-gradient(100deg, rgb(7, 40, 58) 50%, rgb(5, 28, 54));
+    color: rgb(240, 106, 106);
+    border-left: 35px solid rgb(35, 160, 171);
+    z-index: 0;
+}
+
+.imagesss1 {
+    position: absolute;
+    width: 70vw;
+    left: 5vw;
+    top: 370vh;
+    z-index: 1;
+}
+
+#ARGENTINA {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 5vh;
+    right: 7vw;
+    width: 950px;
+    font-size: 35px;
+    padding: 15px 0;
+    border-top: 5px solid rgb(35, 160, 171);
+    border-bottom: 5px solid rgb(35, 160, 171);
+    z-index: 0;
+    scroll-margin-top: 50px;
+}
+
+#shoot {
+    position: absolute;
+    width: 40%;
+    top: 0vh;
+    left: -7vw;
+    z-index: 1;
+}
+
+.imagesss2 {
+    position: absolute;
+    width: 70vw;
+    left: 5vw;
+    top: 570vh;
+    z-index: 1;
+}
+
+.headert1 .navtro {
+    position: absolute;
+    top: 18%;
+    right: 0vw;
+    width: 230px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.headert1 .navtro p {
+    background-color: rgb(240, 106, 106);
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0px 4px 4px;
+}
+
+.headert1 .navtro #bol {
+    border-bottom-left-radius: 45px;
+}
+
+.headert1 .navtro #bol3 {
+    border-bottom-left-radius: 45px;
+}
+
+.headert1 .navtro #bol1 {
+    border-top-left-radius: 45px;
+}
+
+.headert1 .navtro #bol1 a{
+    border-top-left-radius: 45px;
+    padding: 20px 60px;
+}
+
+.headert1 .navtro #bol2 a{
+    padding: 20px 62px;
+}
+
+.headert1 .navtro #bol3 a{
+    padding: 20px 47px;
+    border-bottom-left-radius: 45px;
+}
+
+.headert1 .navtro p:hover {
+    background-color: rgb(24, 66, 106);
+    transition-duration: 0.7s;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.headert1 .navtro p a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+
+.headert1 .navtro p a:hover {
+    color: rgb(240, 106, 106);
+}
+
+.cam {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 30vw;
+    top: 40vh;
+}
+
+.cam img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.cam p {
+    position: absolute;
+    width: auto;
+    bottom: 0vh;
+    color: white;
+}
+
+
+.cam h3 {
+    width: 100px;
+}
+
+.cam1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 50vw;
+    top: 40vh;
+}
+
+.cam1 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.cam1 p {
+    position: absolute;
+    width: auto;
+    bottom: 2vh;
+    color: white;
+}
+
+
+.cam1 h3 {
+    width: 100px;
+}
+
+.cam2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 70vw;
+    top: 40vh;
+}
+
+.cam2 img {
+    position: absolute;
+    width: 70px;
+    top: 120px;
+    left: 90px;
+}
+
+.cam2 p {
+    position: absolute;
+    width: auto;
+    bottom: 3vh;
+    color: white;
+}
+
+
+.cam2 h3 {
+    width: 100px;
+}
+
+.cam3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 40vw;
+    top: 100vh;
+}
+
+.cam3 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.cam3 p {
+    position: absolute;
+    width: auto;
+    bottom: 1vh;
+    color: white;
+}
+
+
+.cam3 h3 {
+    width: 100px;
+}
+
+.cam4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 61vw;
+    top: 100vh;
+}
+
+.cam4 img {
+    position: absolute;
+    width: 100px;
+    top: 70px;
+    left: 75px;
+}
+
+.cam4 p {
+    position: absolute;
+    width: auto;
+    bottom: 7vh;
+    left: 111px;
+    color: white;
+}
+
+
+.cam4 h3 {
+    width: 100px;
+}
+
+.maint4 {
+    position: absolute;
+    width: 97%;
+    height: 350vh;
+    top: 635vh;
+    background-image: linear-gradient(100deg, rgb(45, 110, 145) 50%, rgb(5, 28, 54));
+    color: rgb(240, 106, 106);
+    border-left: 35px solid gold;
+    z-index: 0;
+}
+
+#INDIVIDUALES {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: 4vw;
+    width: 900px;
+    font-size: 35px;
+    padding: 15px 0;
+    border-top: 5px solid gold;
+    border-bottom: 5px solid gold;
+    z-index: 0;
+    scroll-margin-top: 57px;
+}
+
+.maint4 img {
+    width: 350px;
+    position: absolute;
+    right: 3vw;
+}
+
+.balon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 5vw;
+    top: 40vh;
+}
+
+.balon img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon1 {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 8vh;
+}
+
+.balon1 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 19vw;
+    top: 40vh;
+}
+
+.balon2 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon3 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon2 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon2 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 32vw;
+    top: 40vh;
+}
+
+.balon4 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon5 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon4 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+
+.balon4 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon6 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 5vw;
+    top: 110vh;
+}
+
+.balon6 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon7 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 8vh;
+}
+
+.balon6 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon6 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon8 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 19vw;
+    top: 110vh;
+}
+
+.balon8 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon8 p {
+    width: auto;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    top: 32vh;
+}
+
+
+.balon8 h3 {
+    width: 100px;
+    color: white;
+}
+
+
+.balon10 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 32vw;
+    top: 110vh;
+}
+
+.balon10 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon11 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon10 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+
+.balon10 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon12 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    left: -25vw;
+    top: 140vh;
+}
+
+.balon12 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 65px;
+}
+
+.balon13 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 12vh;
+}
+
+.balon12 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+.balon12 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon14 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    left: 13vw;
+    bottom: 70vh;
+}
+
+.balon14 img {
+    position: absolute;
+    width: 70px;
+    top: 100px;
+    left: 90px;
+}
+
+.balon15 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon14 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+.balon14 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon16 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 14vw;
+    top: 0vh;
+}
+
+.balon16 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon17 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon16 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon16 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon18 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 32vw;
+    top: 81vh;
+}
+
+.balon18 img {
+    position: absolute;
+    width: 35px;
+    top: 100px;
+    left: 107.5px;
+}
+
+.balon19 {
+    text-align: center;
+    width: auto;
+    height: 35px;
+    position: absolute;
+    bottom: 9vh;
+}
+
+.balon18 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+.balon18 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon20 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: -27vw;
+    top: 80vh;
+}
+
+.balon20 img {
+    position: absolute;
+    width: 70px;
+    top: 95px;
+    left: 90px;
+}
+
+.balon21 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon20 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon20 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon22 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: -14vw;
+    top: 80vh;
+}
+
+.balon22 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon23 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon22 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon22 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon24 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 13vw;
+    top: 0vh;
+}
+
+.balon24 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon25 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon24 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon24 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon26 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 28vw;
+    top: 1vh;
+}
+
+.balon26 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon27 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon26 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon26 h3 {
+    width: 100px;
+    color: white;
+}
+
+.balon28 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: -14vw;
+    top: 140vh;
+}
+
+.balon28 img {
+    position: absolute;
+    width: 70px;
+    top: 70px;
+    left: 90px;
+}
+
+.balon29 {
+    text-align: center;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.balon28 p {
+    position: relative;
+    width: auto;
+    color: white;
+}
+
+
+.balon26 h3 {
+    width: 100px;
+    color: white;
+}
+
+.imagesss3 {
+    position: absolute;
+    width: 70vw;
+    left: 5vw;
+    top: 750vh;
+    z-index: 1;
+}
+
+.maint5 {
+    position: absolute;
+    width: 97%;
+    height: 120vh;
+    top: 995vh;
+    background-image: linear-gradient(100deg, rgb(9, 49, 71) 50%, rgb(1, 10, 20));
+    color: rgb(240, 106, 106);
+    border-left: 35px solid rgba(212, 212, 212, 0.957);
+    z-index: 0;
+}
+
+#RECORDS {
+    text-align: center;
+    color: rgba(212, 212, 212, 0.957);
+    position: absolute;
+    top: 5vh;
+    width: 900px;
+    font-size: 35px;
+    padding: 15px 0;
+    border-top: 5px solid rgba(212, 212, 212, 0.957);
+    border-bottom: 5px solid rgba(212, 212, 212, 0.957);
+    z-index: 0;
+    scroll-margin-top: 57px;
+    left: 150px;
+}
+
+.maint5 img {
+    width: 550px;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+
+.maint5 p {
+    color: white;
+}
+
+.maint5 .listarecords p {
+    padding: 15px 0;
+    text-align: left;
+}
+
+.maint5 .listarecords {
+    position: absolute;
+    
+    left: 4vw;
+    top: 40vh;
+}
+
+.maint5 .listarec p {
+    padding: 15px 0;
+    text-align: right;
+}
+
+.maint5 .listarec {
+    text-align: right;
+    position: absolute;
+    right: 4vw;
+    top: 40vh;
+}
+
+.imagesss4 {
+    position: absolute;
+    width: 70vw;
+    left: 5vw;
+    top: 950vh;
+    z-index: 1;
+}
+
+.anuncioss1 {
+    position: absolute;
+    top: 1120vh;
+    width: 100%;
+    height: 52vh;
+    background-image: linear-gradient(0deg, black 25%, rgb(51, 72, 195));
+    display: flex;
+    justify-content: center;
+}
+
+.anuncioss1 .footerr1 {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 90%;
+    height: 15vh;
+    padding: 0 10px 0 10px;
+    font-size: 13px;
+}
+
+.anuncioss1 .logobott1 {
+    position: absolute;
+    width: 17vw;
+    height: 50%;
+    top: 7vh;
+    left: 0;
+    border-right: 3px solid rgb(240, 106, 106);
+}
+
+.anuncioss1 .logobott1 #foot {
+    position: absolute;
+    left: 5vw;
+    top: 6vh;
+    width: 55px;
+}
+
+.iconoss1 {
+    position: absolute;
+    width: 17vw;
+    height: 50%;
+    top: 7vh;
+    right: 0;
+    border-left: 3px solid rgb(240, 106, 106);
+}
+
+.bi {
+    padding: 0 5px 0 5px;
+    position: relative;
+    top: 12vh;
+    width: 4vw;
+    height: 4vh;
+    color: white;
+}
+
+.sponsorss1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 50%;
+    position: absolute;
+    top: 2vh;
+}
+.sponsorss2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 50%;
+    position: absolute;
+    top: 14vh;
+}
+
+.sponsorss1 img {
+    padding: 1px;
+}
+
+.body3 {
+    background:url(https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-estadisticas {
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(250deg, rgb(90, 224, 236) 10%, rgb(13, 83, 133) 50%, rgb(245, 72, 59) 90%, rgb(101, 9, 9) 100%);
+    opacity: 0.7;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.menustats {
+    z-index: 1;
+    width: 100%;
+    height: 130vh;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+.menustats h2 {
+    font-size: 40px;
+    position: fixed;
+    top: 0;
+    left: 2vw;
+    color: white;
+}
+
+.menustats h1 {
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    right: 2vw;
+    top: 12vh;
+    width: 670px;
+    height: auto;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(240, 106, 106);
+}
+
+.estadisticasmenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+.anuncioss2 {
+    position: absolute;
+    top: 130vh;
+    width: 100%;
+    height: 52vh;
+    background-image: linear-gradient(0deg, black 25%, rgb(51, 72, 195));
+    display: flex;
+    justify-content: center;
+}
+
+.anuncioss2 .footerr2 {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 90%;
+    height: 15vh;
+    padding: 0 10px 0 10px;
+    font-size: 13px;
+}
+
+.anuncioss2 .logobott2 {
+    position: absolute;
+    width: 17vw;
+    height: 50%;
+    top: 7vh;
+    left: 0;
+    border-right: 3px solid rgb(240, 106, 106);
+}
+
+.anuncioss2 .logobott2 #foot {
+    position: absolute;
+    left: 5vw;
+    top: 6vh;
+    width: 55px;
+}
+
+.iconoss2 {
+    position: absolute;
+    width: 17vw;
+    height: 50%;
+    top: 7vh;
+    right: 0;
+    border-left: 3px solid rgb(240, 106, 106);
+}
+
+.bi {
+    padding: 0 5px 0 5px;
+    position: relative;
+    top: 12vh;
+    width: 4vw;
+    height: 4vh;
+    color: white;
+}
+
+.sponsorss3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 50%;
+    position: absolute;
+    top: 2vh;
+}
+.sponsorss4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 50%;
+    position: absolute;
+    top: 14vh;
+}
+
+.sponsorss1 img {
+    padding: 1px;
+}
+/* width: 991 -500 */
